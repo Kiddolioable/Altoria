@@ -19,7 +19,7 @@ public class Altoria {
         int lol;
         int hah;
         int ahaha;
-        
+        int anagasng;
     }
             
 }
