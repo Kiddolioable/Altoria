@@ -17,6 +17,9 @@ public class Altoria {
      */
     public static void main(String[] args) {
         int lol;
+        int hah;
+        int ahaha;
+        
     }
             
 }
