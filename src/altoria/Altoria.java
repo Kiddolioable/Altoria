@@ -10,9 +10,7 @@ public class Altoria
         responseGenerator = new ResponseGenerator();
         System.out.println("/-------------------------------\\"
                        + "\n| A L T O R I A  C H A T  B O T |"
-                      + "\n\\-------------------------------/");
-        
-        responseGenerator.test();
+                      + "\n\\-------------------------------/");      
     }
 }
     
