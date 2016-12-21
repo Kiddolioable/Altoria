@@ -16,7 +16,7 @@ public class Memory{
     public Memory(){
         try{
             //Greetings
-            bufferedReader = new BufferedReader(new FileReader("greetings.txt"));
+            bufferedReader = new BufferedReader(new FileReader("memory/greetings.txt"));
         }catch(FileNotFoundException e){
             System.out.println("ERROR: File not found.");
         }catch(Exception e){
