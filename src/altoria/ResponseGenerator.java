@@ -19,6 +19,10 @@ public class ResponseGenerator {
     }
     
     public void analyzeAndRespond(String userInput){
-        
+        //Questions
+        if(userInput.endsWith("?")){
+            System.out.println("You asked a question.");
+        }
+        //Affirmation
     }
 }
