@@ -17,9 +17,14 @@ public class Altoria
                        + "\n| A L T O R I A  C H A T  B O T |"
                       + "\n\\-------------------------------/");    
         
-        input = in.nextLine();
-        
-        responseGenerator.analyzeAndRespond(input);
+        while(true){
+            //Requesting user input
+            System.out.print("\nYou: ");
+            input = in.nextLine();
+            //Response algorithm
+            System.out.print("\nAltoria: ");
+            responseGenerator.analyzeAndRespond(input);
+        } 
     }
 }
     
