@@ -3,15 +3,11 @@ package altoria;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 //Retrieves all known words to the chat bot, with an expandable dictionary of words/phrases
 public class Memory{
     private BufferedReader bufferedReader;
-
     //Constructor
     public Memory(){
         try{
